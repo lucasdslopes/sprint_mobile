@@ -5,7 +5,7 @@ Lucas dos Santos Lopes RM:550790
 Murilo Machado RM:550718 
 Victor Taborda Rodrigues RM:97900 
 Gustavo Marques Catelan RM:551823 
-Allan Percario RM:99903
+Gabriel Bacelar Valentim RM97901
 
 <h2>DESCRIÇÃO DO PROJETO</h2>
 Nós do grupo InovaX pretende fazer um serviço de uma plataforma de comparação de preços e avaliações inovadora que vai além do tradicional.
