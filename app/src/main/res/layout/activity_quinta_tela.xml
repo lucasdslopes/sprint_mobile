@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuintaTela"
+    android:background="#F15424">
+
+    <!-- Imagem no topo -->
+    <ImageView
+        android:id="@+id/top_image"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/imagemquatro"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.55" />
+
+    <!-- Botão "Comece Já!" -->
+    <Button
+        android:id="@+id/proximo_button"
+        android:layout_width="173dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#FF5C38"
+        android:padding="12dp"
+        android:text="Comece Já!"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_image" />
+
+    <!-- Texto "O que está esperando?" -->
+    <TextView
+        android:id="@+id/qualidade_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O que está esperando?"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/proximo_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Texto de descrição -->
+    <TextView
+        android:id="@+id/descricao_text"
+        android:layout_width="378dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Faça parte dessa inovação. Comece hoje mesmo a comprar com mais inteligência, praticidade e facilidade. Tudo que você precisa em um só lugar!"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/qualidade_text" />
+
+    <!-- Barra de progresso no rodapé -->
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="4dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="#D3D3D3"
+        android:progress="100"
+        android:progressTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_percent="0.8" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
