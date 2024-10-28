@@ -1,5 +1,7 @@
 package com.example.sprint_mobile
 
+import android.content.Intent
+import android.net.Uri
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -34,6 +36,12 @@ class CartAdapter(
             onRemoveClick(product)
             removeItem(holder.adapterPosition)
         }
+
+        holder.itemView.setOnClickListener {
+            val url = product.link
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
+            holder.itemView.context.startActivity(intent)
+        }
     }
 
     private fun removeItem(position: Int) {
@@ -58,7 +66,6 @@ class CartAdapter(
         }
     }
 
-
     override fun getItemCount(): Int = cartProducts.size
 
     fun updateCart(updatedCart: MutableList<ProductResult>) {
@@ -67,4 +74,3 @@ class CartAdapter(
         recalculateTotal()
     }
 }
-

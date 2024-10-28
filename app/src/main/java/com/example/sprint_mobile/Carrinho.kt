@@ -47,6 +47,7 @@ class Carrinho : AppCompatActivity() {
         updateTotal(cartAdapter.getTotal())
     }
 
+
     private fun updateTotal(total: Double) {
         totalTextView.text = "Total: R$ ${String.format("%.2f", total)}"
     }

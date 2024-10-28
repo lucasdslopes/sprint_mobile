@@ -49,6 +49,25 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+        botaoCadastrar.setOnClickListener {
+            val nome = nomeInput?.text.toString()
+            val email = emailInput?.text.toString()
+            val senha = senhaInput?.text.toString()
+
+            if (nome.isNotEmpty() && email.isNotEmpty() && senha.isNotEmpty()) {
+                val sharedPref = getSharedPreferences("CadastroPrefs", Context.MODE_PRIVATE)
+                with(sharedPref.edit()) {
+                    putString("nome", nome)
+                    putString(email, senha)
+                    apply()
+                }
+
+                nomeInput?.text?.clear()
+                emailInput?.text?.clear()
+                senhaInput?.text?.clear()
+            }
+        }
+
         val voltarText: TextView = findViewById(R.id.ID1_Voltar_Text)
         voltarText.setOnClickListener {
             finish()
