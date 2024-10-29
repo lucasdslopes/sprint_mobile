@@ -8,7 +8,14 @@ Gustavo Marques Catelan RM:551823
 Gabriel Bacelar Valentim RM97901
 
 <h2>DESCRIÇÃO DO PROJETO</h2>
-Nós do grupo InovaX pretende fazer um serviço de uma plataforma de comparação de preços e avaliações inovadora que vai além do tradicional.
-Enquanto os comparadores de preços e avaliações atuais focam principalmente em produtos, nosso diferencial está na inclusão de serviços essenciais, como planos de saúde, 
-planos de internet e outros tipos de assinaturas.O objetivo é fornecer ao usuário uma visão completa e detalhada tanto de produtos quanto de serviços, facilitando
-a tomada de decisões de compra e assinatura. A plataforma será uma solução única e abrangente, garantindo que o consumidor encontre as melhores ofertas e economize tempo e dinheiro.
+A InovaX é uma plataforma inovadora desenvolvida para comparar produtos e serviços essenciais, como planos de saúde e assinaturas, além de itens convencionais. 
+Nosso objetivo é oferecer uma experiência completa de comparação, facilitando a tomada de decisões com base nas melhores opções disponíveis em diversas plataformas.
+
+<h2>Funcionalidades Principais</h2>
+Pesquisa Avançada de Produtos: Utilizando a linguagem Kotlin e a SerpAPI para integração com o Google Shopping, é possível buscar produtos e visualizar uma lista de opções com preços e fornecedores variados, permitindo ao usuário encontrar a melhor opção.
+Gestão de Carrinho de Compras: O usuário pode adicionar produtos ao carrinho com as melhores ofertas que encontrou, visualizar o valor total dos itens selecionados e remover produtos conforme sua preferência.
+Comparação de Ofertas: Cada produto pesquisado exibe diferentes preços e sites, facilitando a escolha da oferta ideal.
+
+<h2>Tecnologias Utilizadas</h2>
+Linguagem: Kotlin
+API de Pesquisa: SerpAPI (Google Shopping)
