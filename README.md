@@ -1,10 +1,10 @@
 <h1>InovaX</h1>
 
 <h1>Integrantes:</h1>
-Lucas dos Santos Lopes RM:550790 
-Murilo Machado RM:550718 
-Victor Taborda Rodrigues RM:97900 
-Gustavo Marques Catelan RM:551823 
+Lucas dos Santos Lopes RM:550790<br>
+Murilo Machado RM:550718<br> 
+Victor Taborda Rodrigues RM:97900<br>
+Gustavo Marques Catelan RM:551823<br> 
 Gabriel Bacelar Valentim RM97901
 
 <h2>DESCRIÇÃO DO PROJETO</h2>
@@ -17,5 +17,5 @@ Gestão de Carrinho de Compras: O usuário pode adicionar produtos ao carrinho c
 Comparação de Ofertas: Cada produto pesquisado exibe diferentes preços e sites, facilitando a escolha da oferta ideal.
 
 <h2>Tecnologias Utilizadas</h2>
-Linguagem: Kotlin
+Linguagem: Kotlin<br>
 API de Pesquisa: SerpAPI (Google Shopping)
